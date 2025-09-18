@@ -2,12 +2,14 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv[]){
-    char c,d ;
-    printf("enter a character : ");
-    scanf("%c", &c);
+    int ja, mo;
+    printf("enter bunja: ");
+    scanf("%d", &ja);
     
-    d = c + 1;
-    printf("The character of %c (%i) is %c (%i).\n", c, c, d, d);
+    printf("enter bunmo: ");
+    scanf("%d", &mo);
+    
+    printf("The result is %f\n", (float)ja/mo); 
     
   system("PAUSE");	
   return 0;
